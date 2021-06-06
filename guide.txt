@@ -1,0 +1,37 @@
+
+install python directly from website dont accept path or anything just finish just click install now
+install anaconda directly from website do not tick on anything
+
+open conda prompt
+
+now we will create our kitchen(environment)
+conda create -n main(coz it is our main environment)
+conda activate main(u entered the kitchen)
+
+now we will bring all apliances and ingredients to kitchen
+
+first we will install
+python in main environment which we have installed earlier
+
+conda install python=3.9(verison u install earlier)
+
+conda install -c anaconda numpy
+
+conda install -c anaconda pandas
+conda install -c conda-forge matplotlib
+conda install -c conda-forge notebook
+
+jupyter notebook
+
+when kernel is not working
+
+just activate your environment once again 
+by typing 
+conda activate "C:\Users\Pratham Saxena\.conda\envs\main"
+now we will install kernel
+python -m ipykernel install --user
+then open jupyter notebooke once again
+
+you are good to go your welcome
+
+
